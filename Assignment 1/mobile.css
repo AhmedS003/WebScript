@@ -1,0 +1,21 @@
+/* Mobile Viewpoint: 600 PX */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #f0f0f0;
+    }
+    
+    /* Design the Mobile Viewpoint, so it isn't clustered, or messed up due to the screen size. */
+    main {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav ul li {
+        display: block; /* Put every Navigation vertically, so it displays correctly. */
+        margin-bottom: 10px;
+    }
+
+    form input, form textarea {
+        width: 100%; /* Make the form inputs appear better on the mobile screens. */
+    }
+}

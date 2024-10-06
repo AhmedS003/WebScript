@@ -1,0 +1,21 @@
+/* Desktop Viewpoint: 1025 PX */
+@media only screen and (min-width: 1025px) {
+    body {
+        background-color: #f0f0f0;
+    }
+
+    main {
+        width: 80%; /* Make the main information wider due to screen size. */
+        margin: 30px auto; /* Put the content in the middle instead of the sides. */
+        padding: 20px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    form input, form textarea {
+        width: 70%; 
+    }
+}
