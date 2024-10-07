@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    /* Tablet Viewpoint */
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .nav-list li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
