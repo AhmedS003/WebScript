@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+    /* Phone Viewpoint */
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        margin: 10px 0;
+    }
+
+    .nav-list li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}

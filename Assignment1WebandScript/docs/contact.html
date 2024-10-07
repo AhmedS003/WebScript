@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Me">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.mobile.css">
+    <link rel="stylesheet" href="style.tablet.css">
+    <link rel="stylesheet" href="style.desktop.css">
+</head>
+<body>
+    <header>
+        <h1>My Page</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+            <button type="submit">Finish</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Contact: <a href="mailto:ahmedshahid010101@gmail.com">ahmedshahid010101@gmail.com</a></p>
+        <p>&copy; 2024 Ahmed Shahid. I reserve all rights.</p>
+    </footer>
+</body>
+</html>
+
+<!-- The head portion links everything together, e.g. Viewpoints, Stylesheets. Going down to the body, it ensures the interactives work.
+  So when I'm on the page, I can go back to Home, About Me, etc. The main (and most crucial part) creates boxes for the user to write in. 
+  When clicking submit, I will receive the forms.-->
